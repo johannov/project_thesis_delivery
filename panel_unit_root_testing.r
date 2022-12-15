@@ -4,7 +4,7 @@ library(dplyr)
 
 ### Fetching data ###
 
-data = read.csv("lcudata.csv")
+data = read.csv("./output/lcudata.csv")
 
 use_imp = TRUE # For data with imputed single NAs in ng_price. Disable line above.
 
